@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+ <head>
+     <meta charset="utf-8" />
+  <title>AI赋能，手把手教你第一次用AI（保姆级教程） | 思考边缘</title>
+  <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
+  <link rel="stylesheet" href="https://championgpt.github.io//styles/main.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+   <script src="https://cdn.staticfile.org/highlight.js/9.15.9/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+ </head>
+ <body>
+     <div class="sidebar animated fadeInDown">
+   <div class="logo-title">
+    <div class="title">
+     <img src="https://championgpt.github.io//images/avatar.png?v=1719374594329" style="width:127px;" />
+
+     <h3 title=""><a href="/">思考边缘</a></h3>
+
+     <div class="description">
+      <p>🤞每周分享所见所闻所想
+欢迎关注我的公众号“思考边缘”</p>
+     </div>
+    </div>
+   </div>
+   <ul class="social-links">
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    <li><a href="405335201"><i class="fa fa-qq"></i></a></li>
+ 
+    
+
+    
+
+   </ul>
+   <div class="footer">
+    <div class="by_farbox">
+   欢迎关注我的公众号“思考边缘”
+    </div>
+    
+
+    </div>
+   </div>
+  </div>
+  <div class="main">
+     <div class="page-top animated fadeInDown">
+    <div class="nav">
+    
+     <li><a  href="/">首页</a></li>
+
+     <li><a  href="/archives">归档</a></li>
+
+     <li><a  href="/tags">标签</a></li>
+
+     <li><a  href="https://mlink.cc/ChampionGPT">关于</a></li>
+
+    </div>
+    <div class="information">
+     <div class="back_btn">
+      <li><a class="fa fa-chevron-left" onclick="window.history.go(-1)"> </a></li>
+     </div>
+    </div>
+   </div>
+   <div class="autopagerize_page_element">
+    <div class="content">
+     <div class="post-page">
+      <div class="post animated fadeInDown">
+       <div class="post-title">
+        <h3><a>AI赋能，手把手教你第一次用AI（保姆级教程）</a></h3>
+       </div>
+       <div class="post-content">
+        <h2 id="开篇">开篇</h2>
+<p>多年以后，面对AI，我将会想起，去年今日见识Chatgpt的那个遥远的夜晚。那时的互联网只是吵吵闹闹的菜市场，标题党文章和无聊八卦短视频围成的信息茧房，沿网络长城排开，人们眼神涣散四处张望，世界仍旧沉浸在刚解封的欢乐喜庆之中，内心自由欢畅宛如冬眠结束后的史前巨龙。AI世界新生依旧伊始，许多事物还没有名字，提到的时候尚需用手指指点点。</p>
+<p>曾经，AI对我而言只是遥远未来的幻想。但一年前，当我决定和它进行第一次沟通之时，一切都改变了。短短一年时间，Ai的发展已经发生了天翻地覆的变化，国内外都涌现了大量的模型和落地产品，那些科幻电影中的情景开始变为了我日常生活中的现实。</p>
+<p><strong>使用Ai一年了，你知道我这一年是怎么过来的吗？</strong></p>
+<hr>
+<h2 id="一-通往ai之路">一、通往Ai之路</h2>
+<h3 id="缘起">缘起</h3>
+<p>去年年初，在接触Ai（注：本文Ai单指类ChatGPT大语言模型）以后，我表达欲空前旺盛，写作信心大增，决定重开公众号写文章。那时候，我用Ai做了一件事情——帮公众号改头像和名字简介，于是我的公众号又重新开张了。这个过程我写在了文章：</p>
+<!-- more -->
+<p><a href="https://mp.weixin.qq.com/s/2OHzepqpTkumntYCZ1a3YQ">边缘周报 2 ChatGPT我说的每一句话都是错的</a> 里面。</p>
+<!-- more -->
+<p>乘着这个契机，我也找到了自己的“通往Ai之路”。</p>
+<figure data-type="image" tabindex="1"><img src="https://championgpt.github.io//post-images/1709448838051.png" alt="" loading="lazy"></figure>
+<!-- more -->
+<figure data-type="image" tabindex="2"><img src="https://championgpt.github.io//post-images/1709448817658.png" alt="" loading="lazy"></figure>
+<!-- more -->
+<figure data-type="image" tabindex="3"><img src="https://championgpt.github.io//post-images/1709448828259.png" alt="" loading="lazy"></figure>
+<!-- more -->
+<hr>
+<h3 id="ai使用的五个阶段">AI使用的五个阶段</h3>
+<p>这一年当中，我经历了使用AI的5个阶段：</p>
+<ol>
+<li>为提问而提问</li>
+<li>为好奇而提问</li>
+<li>为偷懒而提问</li>
+<li>为精进而提问</li>
+<li>为合作而提问</li>
+</ol>
+<h4 id="为提问而提问">为提问而提问：</h4>
+<p>刚接触Ai，你可能还不了解它的生产能力，于是把他当成一个搜索引擎，会按照过往的习惯跟他交流，这是我在自己使用AI和安利朋友AI的过程中的经验。比如你会问他广州的人口数是多少，今天天气怎么样。可是我在</p>
+<!-- more -->
+<p><a href="https://mp.weixin.qq.com/s/2OHzepqpTkumntYCZ1a3YQ">边缘周报 2 ChatGPT我说的每一句话都是错的</a></p>
+<!-- more -->
+<p>里也说过，大语言模型最不擅长完成的任务是 <em>回答事实性的内容</em> 。它在回答事实性问题时容易出错。他最擅长玩文字游戏和解读文字情感和意义。你应该抱着开放性的态度跟它聊天，而不是答辩。</p>
+<p>在刚开始的时候，你大概率会觉得AI也不过如此，甚至还不如百度。这是正常的，因为你没有问对问题，准确地说，是因为你还没找到能准确解决你问题的场景，别生气，别气馁，如果坚持使用，你会进入下一个阶段——为好奇而提问。</p>
+<!-- more -->
+<figure data-type="image" tabindex="4"><img src="https://championgpt.github.io//post-images/1709448866262.png" alt="" loading="lazy"></figure>
+<!-- more -->
+<h4 id="为好奇而提问">为好奇而提问</h4>
+<p>经过一段时间的使用，我逐渐熟悉了和Ai沟通的方式，我发现，它是一个能回答所有问题的工具，前提是要有足够的好奇心，ChatGPT刚开始火爆全网络的时候，我几乎每天都会想跟他交流，脑子里不时冒出各种奇奇怪怪的想法，想咨询一下他的意见，比如我会问他“人类是不是和ai一样，都需要通过学习提高解决问题的能力”这种废话问题，总之，一切我似懂非懂的问题，都丢进去问他的意见。这样做会有一个意想不到的效果，你会从答案当中，发现更多感兴趣的话题，于是不断地深入，不停追问。</p>
+<p>在这个过程当中，你会逐渐摸索出一个和Ai交流的核心技能——<strong>如何正确地提问</strong>。我在</p>
+<!-- more -->
+<p><a href="https://mp.weixin.qq.com/s/2OHzepqpTkumntYCZ1a3YQ">边缘周报 2 ChatGPT我说的每一句话都是错的</a></p>
+<!-- more -->
+<p>提到，一次正确的提问应该是这样的：</p>
+<ol>
+<li><strong>你应该提问一个自己能听懂的问题</strong>：也就是说，你要对答案有足够的分辨能力，知道什么答案是正确的，什么答案有可能是错的。（因为AI有时候会产生幻觉，给出胡说八道的答案。）</li>
+<li><strong>你应该问一个内心感到好奇的问题</strong>：如果对问题不够好奇，你不会刨根问底，只会知其然，不知所以然。</li>
+</ol>
+<h4 id="为偷懒而提问">为偷懒而提问</h4>
+<p>经过好奇心爆发的阶段，你已经对Ai失去了新鲜感，尤其是看到Ai的回答都是一大堆“正确的废话”之后，你会进入一种Ai工具使用的“贤者时间”，对一切提不起兴趣，以前该干嘛还是干嘛，逐渐减少跟Ai交流的次数。有时候甚至一整天都不会打开聊天对话框跟他交流，这是正常的。就跟谈恋爱一样，毕竟过了热恋期，一切都归于平淡。</p>
+<p>这个时候，你需要找一些共同话题跟他交流，哪里找？从工作中，生活中，一切你觉得可以降低时间成本的场景，找到这些场景，然后思考一个问题——</p>
+<p><strong>你应该如何利用AI去提升你的工作效率，优化你的工作流。</strong></p>
+<p>比如刚开始，我想让他帮我进行抖音创作。失败了。因为我自己也没想好思路。</p>
+<p>再比如，偷懒，让他帮我写文章。我后来发现，这也不太行，因为他生成的文章通常都会带有所谓的“AI味儿”，这种AI味儿是一种格式化，生硬的没有人味儿的作文风格，只要这类型的文案看得足够多，你一眼就能分辨出来，刚开始的时候我确实利用AI参与创作了一些内容，但是，后来随着使用时间的增加，我几乎不会直接使用他创作出来的文案了，而是我自己先写好大概的文案内容，再给他帮忙润色，调整文案当中的用词，语序，表达等等。Ai不能帮你完成独立思考。</p>
+<p>再再比如，让他教我搭建笔记系统，提高生产效率。我利用AI发现了目前使用的主力笔记系统——Obsidian，并配合其他效率app搭建出了一套实用的工作流。这方面，我的收获很大，现在依靠这套笔记系统，我已经成功坚持创作1年时间，并且还在持续优化这套系统。（有空我再分享自己的知识管理经验）。</p>
+<figure data-type="image" tabindex="5"><img src="https://championgpt.github.io//post-images/1709449292026.png" alt="" loading="lazy"></figure>
+<!-- more -->
+<figure data-type="image" tabindex="6"><img src="https://championgpt.github.io//post-images/1709449302457.png" alt="" loading="lazy"></figure>
+<!-- more -->
+<figure data-type="image" tabindex="7"><img src="https://championgpt.github.io//post-images/1709449312513.png" alt="" loading="lazy"></figure>
+<!-- more -->
+<figure data-type="image" tabindex="8"><img src="https://championgpt.github.io//post-images/1709449322629.png" alt="" loading="lazy"></figure>
+<!-- more -->
+<p><strong>总结一下</strong>:</p>
+<p>在这个阶段，你应该努力让AI的去帮你偷懒，利用他强大的洞察能力，帮你梳理出工作流当中可以优化的地方，提升生产效率，搭建出一套符合自己生产场景的工作流。比如搭建笔记系统，或者小红书笔记生产流程。达到“事半功倍”的效果。</p>
+<p>核心思路是：<strong>尽量把那些重复低效的工作交给Ai完成。</strong></p>
+<h4 id="为精进而提问">为精进而提问</h4>
+<p>当你已经搭好了这套系统，就需要为持续优化做好精进的准备了。</p>
+<p>这个时候，你已经不再是对Ai一无所知的小白。你了解Ai的能力，你也知道Ai的局限。你得思考如何更有针对性地去调整这套系统，优化你的工作流。因此，接下来的每一次提问，你都应该做好场景化的区隔，以实现个性化的目标。</p>
+<p>而这种区隔，简单地说，就是要为每一个场景创建对应的Ai专家，针对性地解决问题。举个例子：</p>
+<!-- more -->
+<p><a href="(https://mp.weixin.qq.com/s/GxQuQXHt35s_f9e7VqrXDw)">我最近创建了一个数字分身</a></p>
+<!-- more -->
+<figure data-type="image" tabindex="9"><img src="https://championgpt.github.io//post-images/1709449337988.png" alt="" loading="lazy"></figure>
+<!-- more -->
+<p>这个数字分身解决的是我写作场景的问题，我把过去输出的文章，想法都作为知识库嵌入到它的大脑里面，并给他做好了设定，它只会回答我写作或者个人成长相关的问题。每当我遇到喜欢的文章，希望从中学习内容的时候，我就会把文章丢给这个数字分身，让他从我过去的内容里面，找出能和这篇文章主题结合的素材，组合成一篇新文章的思路。现在写的这篇文章我也是用这个方法组织思路的。</p>
+<!-- more -->
+<figure data-type="image" tabindex="10"><img src="https://championgpt.github.io//post-images/1709449349605.png" alt="" loading="lazy"></figure>
+<!-- more -->
+<figure data-type="image" tabindex="11"><img src="https://championgpt.github.io//post-images/1709449358715.png" alt="" loading="lazy"></figure>
+<!-- more -->
+<p>还有很多应用场景，比如文章内容筛选，重点整理，主题式学习等。我都做了对应的机器人去针对我的不同需求，逐个问题让他们有针对性地给出解决方案。（方法我会在第三部分具体分享。）</p>
+<!-- more -->
+<figure data-type="image" tabindex="12"><img src="https://championgpt.github.io//post-images/1709449368993.png" alt="" loading="lazy"></figure>
+<!-- more -->
+<h4 id="为合作而提问">为合作而提问</h4>
+<p>到这个阶段，Ai就不只是单纯的工具了，你会感觉到，他们已经具备某种“智能”，你会就某个问题和他展开讨论，也会像个老板一样安排他完成许多工作，然后你们再各自完成不同的分工，AI成为了你的导师，员工，同事，合伙人。你们组成了一个团队。你们是合作关系，慢慢地Ai会给你赋能，让你变得更加自信，行动力也得到巨大的提升，知行合一在此刻不是一种难事，阻碍你前进的只剩下自己的认知和视野。</p>
+<hr>
+<h2 id="二-梳理ai使用逻辑">二、梳理Ai使用逻辑</h2>
+<p>以上，和你分享了这一年我的Ai工具使用经验和心路历程。</p>
+<p>接下来，我会继续和你一起梳理Ai的使用逻辑，找到你的Ai应用场景，为自己赋能。</p>
+<p>首先我们聊个最近很火的“中美两大Ai巨头”话题。</p>
+<!-- more -->
+<figure data-type="image" tabindex="13"><img src="https://championgpt.github.io//post-images/1709449379523.jpg" alt="" loading="lazy"></figure>
+<!-- more -->
+<p>最近李一舟翻车了，这位被调侃为中国Ai教父的清华美术专业博士，因为卖AI课程被质疑割韭菜，侵权，欺诈，媒体把他推上了风口浪尖，课程也下架了。</p>
+<!-- more -->
+<figure data-type="image" tabindex="14"><img src="https://championgpt.github.io//post-images/1709449389185.jpg" alt="" loading="lazy"></figure>
+<!-- more -->
+<p>李一舟是否割韭菜，这属于价值判断范畴，我不是韭菜，说不清楚。有个事实是，目前人们对AI培训的需求旺盛，热情高涨。</p>
+<p>如果你最近也想学点AI知识，又不知道从何下手，跟你分享一下我的思路。</p>
+<p>首先说个和思路有关的题外话，我在知乎上见到过一个问题：<strong>如何在两个月内快速改变自己。</strong></p>
+<p>我的回答是这样的，在面对一个问题的时候：</p>
+<blockquote>
+<ul>
+<li>首先应该确定问题的范围。</li>
+<li>其次要确保原理和假设可行。</li>
+<li>最后再去解决具体的问题。</li>
+</ul>
+</blockquote>
+<p>比如上面那个知乎问题本身就比较模糊，快速改变自己，这不是一个明确的目标，没有包含具体的范围，就比较难回答。所谓的改变，是什么改变？</p>
+<blockquote>
+<ul>
+<li>是物理上的改变吗？身高、体重、形象还是性别？</li>
+<li>还是个人生活状态的改变？例如生存环境、人际关系、工作、学习，结婚/离婚？</li>
+<li>是行为上的改变吗？例如：作息、饮食、运动、阅读、抽烟？</li>
+<li>还是思想方面的改变？例如：认知，宗教，人生哲学。</li>
+</ul>
+</blockquote>
+<p>所以在设定目标之前，应该根据自己的实际情况，缩小目标的范围，这个范围包括：</p>
+<blockquote>
+<ul>
+<li>目标的具体程度（例如减肥10斤）</li>
+<li>时间维度</li>
+<li>其他方面维度（例如平衡健康，家庭，人际关系，学习，思维方式等等。）</li>
+</ul>
+</blockquote>
+<p>其次就是要确保原理和假设的可行性，如果想在两个月内减肥10斤，那么我们可以先假设，根据目前自己的身体情况，是否可以做到在两个月内减肥10斤，通过制定具体的计划，比如运动，节食等方式是否能够达到减肥10斤的效果。除此之外，还需要考虑到保持减肥动力和适应突发情况的问题。在评估了以上解决方案的可行性之后，目标才算制定合理。</p>
+<h4 id="制定ai学习计划">制定Ai学习计划</h4>
+<p>回到学习Ai知识的问题，制定Ai知识学习计划，应该考虑以下两方面：</p>
+<blockquote>
+<ol>
+<li>
+<p><strong>清晰定义你的学习目标</strong>： 根据自己目前的实际情况，确定Ai知识学习的范围。Ai这个词语涵盖的范围实在太广，我们也不是专家学者，不需要深入研究每一个术语对应的意思，可以简单一些，目标定在学习掌握一个Ai工具的基本原理和用法就完事儿了，例如ChatGPT，Midjourney或是Pika。（这三个语言模型分别擅长生成文字，图片，视频）找个你感兴趣的，开始接触，使用它。最重要的是学以致用，争取利用Ai帮助你解决现实问题。</p>
+<p>例如，目标可以这么定：<br>
+花1个月的时间，掌握Ai文字生成图片的基础知识和基本技巧，至少生成10幅自己满意的图片作品。然后用在自己工作当中。</p>
+</li>
+<li>
+<p><strong>制定可行的学习计划</strong>： 每天学习2小时，一个月总共60小时。方法是通过网络搜索相关视频资源学习，再自己动手练习。如果按照一个月10幅满意作品的目标，也就是每三天就要得到一张满意的图片。</p>
+</li>
+</ol>
+</blockquote>
+<p><strong>找到那个你感兴趣的领域，然后尝试，开始使用才是Ai学习的关键。</strong></p>
+<h4 id="学习心法">学习心法</h4>
+<!-- more -->
+<figure data-type="image" tabindex="15"><img src="https://championgpt.github.io//post-images/1709449406288.png" alt="" loading="lazy"></figure>
+<!-- more -->
+<p>我在知乎问题：</p>
+<!-- more -->
+<p><a href="https://www.zhihu.com/question/626111597/answer/3378855129">要怎么把知乎上的获得的各种知识转化为真正属于自己的东西？</a></p>
+<!-- more -->
+<p>的回答中，分享过我的知识管理与学习的方法：Study in public（公开学习）。</p>
+<p><strong>公开学习</strong>  也就是及时地把所学知识公开表达，无论是先思考总结，再口头转述给你身边的朋友，还是把内容梳理完毕，发布视频、语音、文章到网络上面，都算是Study in public。这个方法也就是大名鼎鼎的[费曼学习法]，最近我把这个方法运用到生活和工作当中，获益良多。</p>
+<p>通过公开表达的方式学习，学到的知识可以及时验收，充分内化和反馈调整。</p>
+<p>运用这个方法学习的前提：</p>
+<blockquote>
+<ol>
+<li>保持独立思考：要有自己的想法，不能人云亦云</li>
+<li>保持开放态度: 对事物和信息保持开放的态度，不带立场和偏见。</li>
+<li>保持在场实践: 勇敢面对那些挑战你认知的事情，多去实践，知行合一。</li>
+<li>保持好奇：对他人保持好奇。不断学习新的知识，接触比你优秀的人。</li>
+</ol>
+</blockquote>
+<p>公开学习， 最大的一个好处就是你不再在意他人对你的看法，因为你清楚明白：</p>
+<p><strong>做这件事不是为了要获取别人的认可，而是为了验证自己的想法，提升自己的认知，真正掌握这个知识点。</strong></p>
+<p>另外一个好处是，你一旦发现输出的内容对他人有帮助，别人因此而点赞，评论，给你更多正反馈的时候，你的学习动力也会变得更足，这会形成一种正反馈循环，促使你更大量地学习，输出。</p>
+<!-- more -->
+<figure data-type="image" tabindex="16"><img src="https://championgpt.github.io//post-images/1709449419242.png" alt="" loading="lazy"></figure>
+<!-- more -->
+<blockquote>
+<p>&quot;Do things for your own satisfaction. Consider praise from others to be abonus. If you don't work for their validation in the first place, you won'tneed it to feel satisfied once it's done.</p>
+<p>“为了自己的满足而做事。将别人的赞扬视为一种奖励。如果你一开始不为他们的认可而努力，那么一旦完成，你就不需要它来感到满足。”</p>
+</blockquote>
+<p>我对公开学习这种方法的体会是，也许一开始我会抱着利己的初心去输出，但是慢慢你会发现，利他才是公开学习的原动力。</p>
+<p><strong>抱着利他的态度输出内容，获得最大收获的人将会是你自己。</strong></p>
+<p>正所谓赠人玫瑰，手有余香。</p>
+<hr>
+<h2 id="三-实战分享">三、实战分享</h2>
+<p>这一章，和你分享一些AI应用实践案例。</p>
+<h4 id="阅读场景">阅读场景</h4>
+<p>平常我会在几个平台阅读网络文章，包括微信，知乎，RSS订阅等，因为信源太多，有时候很难在这么多文章里面找到最想阅读的那几篇。如果逐篇阅读又非常浪费时间。那么，如何快速筛选这些文章，找到有价值的内容呢？</p>
+<!-- more -->
+<figure data-type="image" tabindex="17"><img src="https://championgpt.github.io//post-images/1709449434448.png" alt="" loading="lazy"></figure>
+<!-- more -->
+<p>上图是我用COZE平台设计的一个叫做“微信文章阅读”机器人为我筛选的结果。他能够清晰地把文章内容要点总结出来，然后给出决策支持，这样，每当我到感兴趣的文章，我都可以根据他总结出来的这些要点和有价值信息选择是否需要进一步深度阅读。</p>
+<p>可是，在我搭建“微信文章阅读”机器人之前，也进行过一些探索。</p>
+<p>我最开始是用的是KimiChat，一个国产大语言模型，它可以联网搜索，具有20万字的上下文处理能力，可以处理文章总结，梳理重点的任务。</p>
+<p>怎么用他完成文章总结任务呢？</p>
+<p>最简单的方法，就是把文章链接直接扔给他。他内置的指令会帮你完成文章重点萃取的任务。</p>
+<!-- more -->
+<figure data-type="image" tabindex="18"><img src="https://championgpt.github.io//post-images/1709449443976.png" alt="" loading="lazy"></figure>
+<!-- more -->
+<p>可是每个人的阅读习惯和品味都不一样，以上的结果并不能满足我的需求，因此，这个时候，就要思考怎样才能让他知道我的阅读习惯和品味，具体需求是什么。</p>
+<p>两种方法</p>
+<blockquote>
+<ol>
+<li>直接问他，怎样才能让他按照你的阅读习惯和品味输出结果。</li>
+<li>告诉他，你需要他输出什么结果。</li>
+</ol>
+</blockquote>
+<p>第一种方法比较个性化，你可以在每一次阅读的过程中跟他进行对话，告诉他以下信息，他就会按照你的需要输出你要的文章内容。</p>
+<!-- more -->
+<figure data-type="image" tabindex="19"><img src="https://championgpt.github.io//post-images/1709449453809.png" alt="" loading="lazy"></figure>
+<!-- more -->
+<p>第二种方法，需要你具备掌握编写“提示词（prompt） ”的能力，所谓提示词，就是指导Ai，根据你的要求完成相应任务的指令。</p>
+<!-- more -->
+<figure data-type="image" tabindex="20"><img src="https://championgpt.github.io//post-images/1709449463107.png" alt="" loading="lazy"></figure>
+<!-- more -->
+<p>如果要解决某种个性化的需求，那么我们需要准备好对应的提示词，以后遇到相同场景的时候，就可以重复使用了。</p>
+<p>接下来分析一下我写微信文章阅读助手提示词的思路：</p>
+<blockquote>
+<ol>
+<li>首先，我要针对目前订阅的大部分公众号文章进行筛选，我订阅的公众号文章题材包括以下三类：新闻资讯类，个人博客类，故事类。</li>
+<li>接着，我要梳理自己的阅读需求：
+<ul>
+<li>总结要点：包括文章主题，关键点和有价值的内容。</li>
+<li>价值评估：确保提供的观点和见解符合我的特定兴趣和需求。</li>
+<li>决策支持：以清晰有序的方式呈现总结和提取的内容，帮助我做出是否阅读全文的决策。</li>
+</ul>
+</li>
+</ol>
+</blockquote>
+<p>根据以上需求我制作了以下提示词：</p>
+<pre><code>角色
+你是一个由AI驱动的内容策划师和分析员，擅长从你在微信官方账号订阅的公众号中筛选、总结和提取最新更新文章的有价值洞见。
+
+技能
+技能1：内容筛选和总结
+利用筛选机制识别和整理你订阅的公众号的最新文章。
+为每篇文章创建简洁的总结，突出关键点和有价值内容，便于参考。
+技能2：内容提取和价值评估
+从总结的文章中提取和提炼最相关和最有价值的信息，确保提供的观点和见解符合你的特定兴趣和需求。
+技能3：决策支持
+以清晰有序的方式呈现总结和提取的内容，帮助你做出是否阅读全文的明智决策。
+限制
+仅关注你订阅的公众号的最新更新，避免处理任何不相关内容。
+通过不修改或添加超出原文提供的信息来保持内容的完整性。
+格式
+输出应采用结构化格式，如列表或报告，清晰区分总结、关键见解和决策支持信息。
+
+现在，让我们将这个提示词应用到一个具体任务中：
+
+你的任务是作为微信公众号上的AI内容策划师和分析员执行以下步骤：
+
+浏览你订阅的公众号的最新更新，识别符合你兴趣的文章。
+以清晰简洁的方式总结每篇文章，捕捉文章的精髓和关键要点。
+从总结中提取有价值的见解，并以帮助你决定是否值得阅读全文的方式呈现它们。
+确保整个过程高效，并专注于为你提供最相关的内容，不偏离内容策划和分析的范围。
+记住，你必须遵守限制，并在整个过程中保持内容的完整性。
+
+请用中文回答，并在适用的情况下提供数据可视化。
+</code></pre>
+<p>做出来的效果是这样的：</p>
+<!-- more -->
+<figure data-type="image" tabindex="21"><img src="https://championgpt.github.io//post-images/1709449476645.png" alt="" loading="lazy"></figure>
+<!-- more -->
+<figure data-type="image" tabindex="22"><img src="https://championgpt.github.io//post-images/1709449486452.png" alt="" loading="lazy"></figure>
+<!-- more -->
+<p>以上只是我针对自身需求提出的解决方案，并不适合所有人。如果能对你产生一些启发，建议你马上行动起来，开始编写自己的提示词，做一个属于自己的机器人吧。</p>
+<h4 id="学习场景">学习场景</h4>
+<p>想学一门新的技能？可是又不知道从哪里入手，找个Ai老师吧，一对一服务，认真负责，哪里不会问哪里。</p>
+<p>最近我做了一个苏格拉底式回应导师机器人，跟他学Python，体验不错。</p>
+<!-- more -->
+<figure data-type="image" tabindex="23"><img src="https://championgpt.github.io//post-images/1709449496905.png" alt="" loading="lazy"></figure>
+<!-- more -->
+<figure data-type="image" tabindex="24"><img src="https://championgpt.github.io//post-images/1709449505169.png" alt="" loading="lazy"></figure>
+<!-- more -->
+<figure data-type="image" tabindex="25"><img src="https://championgpt.github.io//post-images/1709449516664.png" alt="" loading="lazy"></figure>
+<!-- more -->
+<figure data-type="image" tabindex="26"><img src="https://championgpt.github.io//post-images/1709449526572.png" alt="" loading="lazy"></figure>
+<!-- more -->
+<p>我还跟kimi学习了一个Vlookup函数，用来整理Excel数据。</p>
+<!-- more -->
+<figure data-type="image" tabindex="27"><img src="https://championgpt.github.io//post-images/1709449536345.png" alt="" loading="lazy"></figure>
+<!-- more -->
+<h4 id="创作场景">创作场景</h4>
+<p>当你要进行创作，输出内容的时候，你的生产流程是怎么样的呢？</p>
+<p>我先说我的，现在如果我要在社交平台上面发布内容，我会：</p>
+<blockquote>
+<ol>
+<li>先自己整理内容框架，想好主题，观点，编好文案初稿。</li>
+<li>向Ai提问，看看他的思路，如果发现有思维死角，及时补充。</li>
+<li>自己修改一遍，然后发给Ai润色。</li>
+<li>最终成文，发布</li>
+</ol>
+</blockquote>
+<p>针对不同的平台，会有不同的解决方法。</p>
+<p>例如小红书，小红书平台的内容主要是以分享个人生活经验为主，图文的排版都有小红书特有的风格，例如正文内容可能要加入一些表情符，首图的文字需要吸睛，醒目，文案要吸引人等等。因此我们得针对不同的创作场景定制不同的提示词（prompt），以达到优化生产流程的目的。</p>
+<p><strong>接下来，分享我的小红书内容创作场景的Ai实践：</strong></p>
+<p><em>起标题</em> : 我不赞成标题党，但无奈现在人们都喜欢看标题党的内容，因此我把一本专门研究起标题方法的书《秒赞：文案女王》丢给了kimi学习，让他根据这本书里面的起标题方式，给我制作小红书标题</p>
+<!-- more -->
+<figure data-type="image" tabindex="28"><img src="https://championgpt.github.io//post-images/1709449546797.png" alt="" loading="lazy"></figure>
+<!-- more -->
+<figure data-type="image" tabindex="29"><img src="https://championgpt.github.io//post-images/1709449554840.png" alt="" loading="lazy"></figure>
+<!-- more -->
+<p><em>文章润色</em> ：我制作了一个文章润色提示词，用来梳理文章的结构，逻辑，表达，语句等。</p>
+<!-- more -->
+<figure data-type="image" tabindex="30"><img src="https://championgpt.github.io//post-images/1709449565099.png" alt="" loading="lazy"></figure>
+<!-- more -->
+<p><em>做图</em>： 有了文案和标题，还缺少小红书风格的图片，也可以用Ai制作，我用了一个工具，他可以根据文案制作分页图，自动生成内容，效果不错。网址：https://postnitro.ai/</p>
+<!-- more -->
+<figure data-type="image" tabindex="31"><img src="https://championgpt.github.io//post-images/1709449574194.png" alt="" loading="lazy"></figure>
+<!-- more -->
+<p>以上，就是我小红书的Ai生产流。</p>
+<h4 id="工作场景">工作场景</h4>
+<p>工作中，会遇到要写会议纪要，制作销售话术的时候。</p>
+<p>我的方法是，把没有敏感内容的会议录音，会场演讲稿丢给Ai，让他生成文字版的会议记录原文，然后再根据原文生成会议重点内容，制作Q&amp;A表格，生成销售话术。</p>
+<!-- more -->
+<figure data-type="image" tabindex="32"><img src="https://championgpt.github.io//post-images/1709449584298.png" alt="" loading="lazy"></figure>
+<!-- more -->
+<figure data-type="image" tabindex="33"><img src="https://championgpt.github.io//post-images/1709449594677.png" alt="" loading="lazy"></figure>
+<!-- more -->
+<p><em>播客内容整理</em>： 此外，还用Ai整理了几期我觉得质量很高的播客节目，把播客网址或者音频文件丢给Ai，整理出逐字稿，可以精读。也可以根据逐字稿整理出一份播客内容总结。</p>
+<!-- more -->
+<figure data-type="image" tabindex="34"><img src="https://championgpt.github.io//post-images/1709449605009.png" alt="" loading="lazy"></figure>
+<!-- more -->
+<h4 id="时间管理场景">时间管理场景</h4>
+<p>现在微信上有很多Ai助理机器人，其中有一个叫做Dola的，可以帮你安排日程，是这样的：</p>
+<!-- more -->
+<figure data-type="image" tabindex="35"><img src="https://championgpt.github.io//post-images/1709449614142.jpg" alt="" loading="lazy"></figure>
+<!-- more -->
+<p>一些日常的提醒，可以通过语音，文字或者图片等格式发给他，他能理解并且帮你整理出日程安排。这样，你就有了一个AI微信私人秘书了。</p>
+<p>其他的一些场景，例如读书，写作，笔记系统的标签整理等我就不一一赘述了，思路都是相通的，只要你能发现自己的需求，就能想出办法通过Ai偷懒。</p>
+<hr>
+<h2 id="四-总结反思">四、总结反思</h2>
+<p>一年来，与Ai工具的互动给我个人带来了巨大的影响。</p>
+<p>这一年多的时间里，我写了15w字，各平台累计浏览量20w，放在以前实在无法想象，这些都是Ai给我赋能后，我的成长与收获。</p>
+<p>此外，我变得更加注重个人品牌的打造。因为在Ai时代，最重要的价值是个体的独特经验和数据。</p>
+<p>因此我做了两件事增加我的个人经验和数据</p>
+<blockquote>
+<ol>
+<li>写作</li>
+<li>链接更多的人</li>
+</ol>
+</blockquote>
+<p>比如，我做了自己的说明书页面。<a href="https://iiwfirldxpf.feishu.cn/wiki/IurXwX3eMiZj9BkYyAdcUiygncc?from=from_copylink">我的个人说明书。</a></p>
+<!-- more -->
+<figure data-type="image" tabindex="36"><img src="https://championgpt.github.io//post-images/1709449626275.png" alt="" loading="lazy"></figure>
+<!-- more -->
+<p>还做了个独立博客，<a href="https://championgpt.github.io/">我的博客</a></p>
+<!-- more -->
+<figure data-type="image" tabindex="37"><img src="https://championgpt.github.io//post-images/1709449635048.png" alt="" loading="lazy"></figure>
+<!-- more -->
+<p>一个工具箱。<a href="https://iiwfirldxpf.feishu.cn/wiki/J0eZw8nbLiM0A1kGLgPcCSHNnne?from=from_copylink">个人工具箱</a> 分享我的信源和输出的内容。</p>
+<!-- more -->
+<figure data-type="image" tabindex="38"><img src="https://championgpt.github.io//post-images/1709449644397.png" alt="" loading="lazy"></figure>
+<!-- more -->
+<p>未来离我们越来越近，马斯克的脑机接口已经实现思想操控电脑，比尔·盖茨预测在未来的5年内，AI Agent将得到广泛应用，每个用户都将拥有一个专属AI Agent 。在人机融合加深的趋势下，每个普通个体都有可能成为 <strong>超级个体</strong> 。</p>
+<!-- more -->
+<figure data-type="image" tabindex="39"><img src="https://championgpt.github.io//post-images/1709449653467.jpg" alt="" loading="lazy"></figure>
+<!-- more -->
+<p>这要求我们：</p>
+<blockquote>
+<ol>
+<li>接触AI，了解AI，拥抱AI</li>
+<li>改变对工作的态度，重复性较高，产出价值较低的工作在未来大概率会被Ai替代。找到工作中高价值的场景，用Ai赋能自己，提高生产效率。</li>
+<li>生产更多属于自己的数据，找到适合自己的细分场景。</li>
+</ol>
+</blockquote>
+<!-- more -->
+<figure data-type="image" tabindex="40"><img src="https://championgpt.github.io//post-images/1709449663628.png" alt="" loading="lazy"></figure>
+<!-- more -->
+<hr>
+<h2 id="五-结尾">五、结尾：</h2>
+<p>学用 AI ⼯具最好的时间是半年前，其次是现在。</p>
+<p>AI会把人类带向何方，或许连奥特曼也说不清楚，可是在未来，将会有更多Ai应用落地，和我们的生活产生更紧密的联系。</p>
+<!-- more -->
+<figure data-type="image" tabindex="41"><img src="https://championgpt.github.io//post-images/1709449711946.jpg" alt="" loading="lazy"></figure>
+<!-- more -->
+<figure data-type="image" tabindex="42"><img src="https://championgpt.github.io//post-images/1709449722347.jpg" alt="" loading="lazy"></figure>
+<!-- more -->
+<p>文章的开头，我模仿了马尔克斯的《百年孤独》，因为我觉得，没有比百年孤独的开头更适描述现在的Ai发展了。</p>
+<p>AI发展日新月异，2024年，希望看完这篇文章，你能对那些以前叫不出名字的AI工具有更清晰的认识，提到AI的时候无需需用手指指点点。</p>
+<p>希望这篇文章能给你带来一点点启发。</p>
+<p>欢迎加我微信交流：</p>
+<!-- more -->
+<figure data-type="image" tabindex="43"><img src="https://championgpt.github.io//post-images/1709449869429.jpg" alt="" loading="lazy"></figure>
+<!-- more -->
+
+       </div>
+       <div class="post-footer">
+        <div class="meta">
+         <div class="info">
+          <i class="fa fa-sun-o"></i>
+          <span class="date">2024-03-03</span>
+          <i class="fa fa-tag"></i>
+          
+          <a class="tag" href="https://championgpt.github.io/tag/o-g-K1N5W/" title="AI">AI </a>
+          
+          <a class="tag" href="https://championgpt.github.io/tag/Qul0YJEYzc/" title="个人发展">个人发展 </a>
+          
+          <a class="tag" href="https://championgpt.github.io/tag/34GHUN9l-U/" title="学习场景">学习场景 </a>
+          
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="share">
+       <div class="evernote">
+        <a class="fa fa-bookmark" href="javascript:(function(){EN_CLIP_HOST='http://www.evernote.com';try{var%20x=document.createElement('SCRIPT');x.type='text/javascript';x.src=EN_CLIP_HOST+'/public/bookmarkClipper.js?'+(new%20Date().getTime()/100000);document.getElementsByTagName('head')[0].appendChild(x);}catch(e){location.href=EN_CLIP_HOST+'/clip.action?url='+encodeURIComponent(location.href)+'&amp;title='+encodeURIComponent(document.title);}})();" ref="nofollow" target="_blank"></a>
+       </div>
+       <div class="weibo">
+        <a class="fa fa-weibo" href="javascript:void((function(s,d,e){try{}catch(e){}var f='http://service.weibo.com/share/share.php?',u=d.location.href,p=['url=',e(u),'&amp;title=',e(d.title),'&amp;appkey=2924220432'].join('');function a(){if(!window.open([f,p].join(''),'mb',['toolbar=0,status=0,resizable=1,width=620,height=450,left=',(s.width-620)/2,',top=',(s.height-450)/2].join('')))u.href=[f,p].join('');};if(/Firefox/.test(navigator.userAgent)){setTimeout(a,0)}else{a()}})(screen,document,encodeURIComponent));"></a>
+       </div>
+       <div class="twitter">
+        <a class="fa fa-twitter" href="http://twitter.com/home?status=,https://championgpt.github.io/post/ai-fu-neng/,;"></a>
+       </div>
+      </div>
+      <div class="pagination">
+       <ul class="clearfix">
+
+        <li class="pre pagbuttons"><a class="btn" role="navigation" href="https://championgpt.github.io/post/selfprompt/" title="写给自己的人生提示词">上一篇</a></li>
+         
+        
+        <li class="next pagbuttons"><a class="btn" role="navigation" href="https://championgpt.github.io/post/wo-de-rss-ding-yue-yuan/" title=" 我的RSS订阅源">下一篇</a></li>
+        
+       </ul>
+      </div>
+        
+     </div>
+    </div>
+   </div>
+  </div>
+  <script src="https://championgpt.github.io//media/scripts/jquery.js"></script>
+  <script src="https://championgpt.github.io//media/scripts/jquery-migrate-1.2.1.min.js"></script>
+  <script src="https://championgpt.github.io//media/scripts/jquery.appear.js"></script>
+
+
+ </body>
+</html>
